@@ -1,6 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin:0;
 }
 
 .navbar-container{
@@ -19,6 +21,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     justify-content: flex-end;
+    margin: 0;
 }
 
 .navbar-links-items {
@@ -28,9 +31,35 @@ body {
     flex: 1;
     padding-left: 20%;
     padding-right:20%;
+    margin: 0;
 }
 .navbar-links-items .links{
     color: #E5E7EB;
     text-decoration: none;
-    
+    margin: 0;
+}
+
+.section1{
+    background-color: #1F2937;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+.section1 .text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 .image-container{
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.text-container .hero-header{
+    font-size: 48px;
+    font-weight: bold;
 }
