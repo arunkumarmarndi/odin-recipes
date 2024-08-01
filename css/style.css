@@ -1,17 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
 .navbar-container{
     background-color: #1F2937;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
     align-items : center;
+    margin: 0;
 }
 
 .navbar-logo-item{
+    display:flex;
+    flex: 1;
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
+    justify-content: flex-end;
 }
 
-.navbar-link-items{
+.navbar-links-items {
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-around; /* Optional: Distribute space between items */
+    align-items: center; /* Optional: Align items vertically center */
+    flex: 1;
+    padding-left: 20%;
+    padding-right:20%;
+}
+.navbar-links-items .links{
     color: #E5E7EB;
-    font-size: 18px;
+    text-decoration: none;
+    
 }
