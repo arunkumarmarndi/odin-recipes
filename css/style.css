@@ -76,3 +76,23 @@ body {
     display: flex; 
     justify-content: flex-end;
 }
+
+.section4{
+    display: flex;
+    justify-content: center;
+}
+
+.section4 .blue-box{
+    display: flex;
+    background-color: #3882F6;
+}
+
+.section4 .blue-box .sign-up-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.section4 .blue-box .sign-up-button{
+    display: flex;
+    align-items: center;
+}
