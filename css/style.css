@@ -80,11 +80,14 @@ body {
 .section4{
     display: flex;
     justify-content: center;
+    padding: 2%;
 }
 
 .section4 .blue-box{
     display: flex;
     background-color: #3882F6;
+    border-radius: 20px;
+    padding: 1%;
 }
 
 .section4 .blue-box .sign-up-text{
