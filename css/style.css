@@ -87,25 +87,39 @@ body {
 .section4 .blue-box{
     display: flex;
     background-color: #3882F6;
-    border-radius: 20px;
-    padding-left: 5%;
+    border-radius: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top : 3%;
+    margin-bottom: 3%;
+    color: white;
 }
 
 .section4 .blue-box .sign-up-text{
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+    align-items: start;
+}
+
+.section4 .blue-box .sign-up-text .row1{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .section4 .blue-box .sign-up-button{
     display: flex;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    
 }
 
 #button-id{
-    padding-left: 10%;
-    padding-right: 10%;
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: #3882F6;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
 }
