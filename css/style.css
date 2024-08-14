@@ -12,6 +12,8 @@ a{
     display: flex;
     background-color: #1F2937;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section1 .row1{
@@ -19,6 +21,7 @@ a{
     color: #F9FAF8;
     justify-content: space-between;
     width: 45%;
+    margin-bottom: 2.5%;
 }
 
 .section1 .row1 .header-col{
@@ -33,6 +36,37 @@ a{
     align-items: center;
     width: 50%;
 }
+.section1 .row2{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 5%;
+}
+
+.section1 .row2 .col1-text{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+}
+
+.section1 .row2 .col1-text .awesome-header{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.section1 .row2 .col1-text .awesome-text{
+    color: #F9FAF8;
+}
+
+.section1 .row2 .col2-img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
 .section2{
     display: flex;
     flex-direction: column;
@@ -50,6 +84,7 @@ a{
     padding-bottom: 5%;
     padding-left: 30%;
     padding-right: 30%;
+
 }
 
 
@@ -140,6 +175,16 @@ a{
 #button-id{
     border-radius: 10px;
     border: 3px solid white;
+    background-color: #3882F6;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+#awesome-sign-up{
+    border-radius: 5px;
+    border: 3px #3882F6;
     background-color: #3882F6;
     color: white;
     cursor: pointer;
